@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.home{
+    width: 99vw; /*scrollbar ki width bhi*/
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+.home>.bg_img>img{
+    margin-top: 0px;
+    width: 100vw; 
+    height: 100vh; 
+    position: absolute; 
+    filter: blur(2px);
+}
+.navigation{
+    font-weight: bold;
+    padding: 10px;
+    text-align:right;
+}
+.navigation>a{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    position: relative;
+    text-decoration: none;
+    padding-right: 30px;
+    text-shadow: 1px;
+}
+.navigation a:hover{ 
+    color: rgba(128, 128, 128, 0.808);
+    text-shadow: 2px 2px 4px #ffffff;
+}
+.main{
+    text-align:center;
+}
+h1{
+    margin-top:180px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size:80px;
+    color:rgba(255, 255, 255, 0.911); 
+    position: relative;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+.main>a{
+    color: rgba(255, 255, 255, 0.692);
+}
+.main a:hover{
+    color: rgba(70, 148, 165, 0.699);
+}
+/* span{
+    margin-top: 0px;
+} 
+ i{
+    color: white;
+}
+i:hover{
+    color: grey; why is hover not working with i class
+} */
+#about{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.753) , rgb(191,201,210));
+    background-color: rgba(209, 207, 207, 0.89);
+}
+
+
+#about h2{
+    color:rgb(108, 165, 214);
+    font-size: 40px; 
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 40px; 
+    border-bottom: 1.5px solid  rgb(112, 162, 206);
+}
+.block{
+    display: flex;
+}
+.first{
+    padding-left: 6%;
+    width: 40%;
+}
+.second{
+    padding-top: 2%;
+    margin: 0% 8% 0% 8%;
+    padding: 2% 2% 2% 2%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* filter:grayscale(0.25); */
+}
+.box1{
+    display: flex;
+    margin-left: 5%;
+}
+.box2{
+    display: flex;
+    margin-left: 5%;
+}
+.one{
+    width: 220px;
+    height: 240px;
+
+}
+.one img{
+    width: 200px;
+    height: 220px;
+    border-radius: 25px;
+    padding: 5px;
+}
